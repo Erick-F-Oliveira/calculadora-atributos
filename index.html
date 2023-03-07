@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <h1 id="cc">Calculadora de Atributos</h1>
+<div id=corpo>
+  <table style="width:50%" id="tabela">
+  <tr>
+    <th></th>
+    <th><span></span>Valor</th>
+    <th>Raça</th>
+    <th>Bonus</th>
+    <th>Total</th>
+    <th>Custo</th>
+  </tr>
+  <tr>
+    <td><span>Força</span></td>
+    <td><input id="forcaValor" class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);" onkeyup="calcular()"/></td>
+    <td><input id="forcaRaca" class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);" onkeyup="calcular()"/></td>
+    <td><input id="forcaBonus" class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);" onkeyup="calcular()"/></td>
+    <td><input id="forcaTotal" class="celula" value="0" readonly maxlength="0" onkeypress="return allowNegativeNumber(event);"onkeyup="calcular()"/></td>
+    <td><input id="forcaCusto" class="celula" value="0" readonly maxlength="0" onkeypress="return allowNegativeNumber(event);" onkeyup="calcular()"/></td>
+    
+  </tr>
+  <tr>
+    <td>Destreza</td>
+     <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);" onkeyup="calcular()"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+  
+  </tr>
+  <tr>
+    <td>Constituição</td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+  </tr>
+  <tr>
+    <td>Inte</td>
+   <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+  </tr>
+  <tr>
+    <td>sabed</td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+  </tr>  
+  <tr>
+    <td>carisma</td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+    <td><input class="celula" maxlength="2" onkeypress="return allowNegativeNumber(event);"/></td>
+  </tr>  
+</table>
+  
+</div>
+
+  
+  <script src="script.js"></script>
+
+ 
+</body>
+
+</html>
