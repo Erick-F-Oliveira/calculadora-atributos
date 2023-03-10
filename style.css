@@ -4,8 +4,11 @@ html {
 }
 
 body{
-  background-color: #b3c4c6;
-  background-image: url("bg.jpg");
+  
+ background-image: url("back.png");
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 h1{
@@ -13,21 +16,62 @@ h1{
 }
 
 #corpo{
+  
   display: flex;
   text-align: center;
  justify-content: center;
 }
 
-#tabela{
+table{
+  
   display: flex;
   justify-content: center;
 }
 
+th,td{
+  font-family: Tormenta;
+  color: #ffffff;
+  font-style: bold;
+  font-size:18px;
+  font-weight: 600
+  
+}
+
 .celula{
-  width: 60px;
+  font-family: Tormenta;
+  width: 55px;
   height: 35px;
   text-align: center;
   border-radius: 10px;
+  font-size: 25px;
+  font-style: bold;
 
 }
 
+#others{
+  position: absolute;
+  bottom: -15px;
+  width: 100%;
+ 
+}
+
+#arv{
+  color: #65c879;
+}
+
+#jambo{
+  color: #c5c4c4;
+}
+
+span{
+  color: #d82926;
+  font-family: Tormenta;
+  font-weight: 600;
+}
+#span2{
+  color: #EA9E0A;
+}
+footer a{
+  font-family: Raizen;
+  text-decoration: none;
+  }
