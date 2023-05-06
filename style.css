@@ -1,43 +1,46 @@
 html {
   height: 100%;
   width: 100%;
+
 }
 
-body{
-  
- background-image: url("back.png");
+body {
+
+  background-image: url("back.png");
   background-repeat: no-repeat;
-   background-attachment: fixed;
+  background-attachment: fixed;
   background-size: 100% 100%;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-#corpo{
-  
+
+
+#corpo {
   display: flex;
   text-align: center;
- justify-content: center;
+  justify-content: center;
+
 }
 
-table{
-  
+table {
+  align-content: center;
   display: flex;
   justify-content: center;
 }
 
-th,td{
+th,
+td {
   font-family: Tormenta;
   color: #ffffff;
   font-style: bold;
-  font-size:18px;
+  font-size: 18px;
   font-weight: 600
-  
 }
 
-.celula{
+.celula {
   font-family: Tormenta;
   width: 55px;
   height: 35px;
@@ -48,30 +51,32 @@ th,td{
 
 }
 
-#others{
-  position: absolute;
-  bottom: -15px;
+#others {
+  position: relative;
+  bottom: -410px;
   width: 100%;
- 
+  font-size: 15px;
 }
 
-#arv{
-  color: #65c879;
+#arv {
+  color: #508b5c;
 }
 
-#jambo{
+#jambo {
   color: #c5c4c4;
 }
 
-span{
+span {
   color: #d82926;
   font-family: Tormenta;
   font-weight: 600;
 }
-#span2{
+
+#span2 {
   color: #EA9E0A;
 }
-footer a{
+
+footer a {
   font-family: Raizen;
   text-decoration: none;
-  }
+}
