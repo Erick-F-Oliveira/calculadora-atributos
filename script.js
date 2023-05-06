@@ -388,6 +388,9 @@ function calcular() {
 
   if (sobraPontos < 0) {
     document.getElementById("pontosTotal").style.color = "red"
+      
+  }else{
+    document.getElementById("pontosTotal").style.color = "black"
   }
 
 }
