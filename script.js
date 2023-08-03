@@ -1,3 +1,4 @@
+
 function calcular() {
   let pontosSobra = document.getElementById('pontosTotal').value;
 
@@ -12,7 +13,8 @@ function calcular() {
   var valorBonusFor = Number(bonusForca.value)
 
   var totalForca = ''
-  if (valorInicFor > '3') {
+  if
+    (valorInicFor > '3') {
     valorInicFor = 4
     document.querySelector('input[id="forcaValor"]').value = '4'
     console.log("oi")
@@ -24,7 +26,7 @@ function calcular() {
   if (valorInicFor < '-1') {
     valorInicFor = -1
     document.querySelector('input[id="forcaValor"]').value = '-1'
-    console.log("oi6")
+
   } else {
     console.log("rrrrrr")
   }
@@ -45,7 +47,8 @@ function calcular() {
   var valorBonusDest = Number(bonusDest.value)
 
   var totalDest = ''
-  if (valorInicDest > '3') {
+  if
+    (valorInicDest > '3') {
     valorInicDest = 4
     document.querySelector('input[id="destValor"]').value = '4'
     console.log("oi")
@@ -76,7 +79,8 @@ function calcular() {
   var valorBonusConst = Number(bonusConst.value)
 
   var totalConst = ''
-  if (valorInicConst > '3') {
+  if
+    (valorInicConst > '3') {
     valorInicConst = 4
     document.querySelector('input[id="constValor"]').value = '4'
     console.log("oi")
@@ -107,7 +111,8 @@ function calcular() {
   var valorBonusInt = Number(bonusInt.value)
 
   var totalInt = ''
-  if (valorInicInt > '3') {
+  if
+    (valorInicInt > '3') {
     valorInicInt = 4
     document.querySelector('input[id="intValor"]').value = '4'
     console.log("oi")
@@ -138,7 +143,8 @@ function calcular() {
   var valorBonusSab = Number(bonusSab.value)
 
   var totalSab = ''
-  if (valorInicSab > '3') {
+  if
+    (valorInicSab > '3') {
     valorInicSab = 4
     document.querySelector('input[id="sabValor"]').value = '4'
     console.log("oi")
@@ -170,7 +176,8 @@ function calcular() {
   var valorBonusCar = Number(bonusCar.value)
 
   var totalCar = ''
-  if (valorInicCar > '3') {
+  if
+    (valorInicCar > '3') {
     valorInicCar = 4
     document.querySelector('input[id="carValor"]').value = '4'
     console.log("oi")
@@ -388,9 +395,8 @@ function calcular() {
 
   if (sobraPontos < 0) {
     document.getElementById("pontosTotal").style.color = "red"
-      
-  }else{
-    document.getElementById("pontosTotal").style.color = "black"
+  } else {
+    document.getElementById("pontosTotal").style.color = "#1a480aff"
   }
 
 }
